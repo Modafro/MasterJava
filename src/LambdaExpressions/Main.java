@@ -17,6 +17,15 @@ public class Main {
         //lambda expressions can only be used for interfaces that only have one method in them that has to be implemented a.k.a "functional interfaces"
         //by adding curly braces after the ->, you can have multiple calls to that run method
 
+        /*high level definitions:
+        Consumer: accepts on parameter but doesn't return any value
+        Supplier: doesn't accept a parameter but returns a value
+        Predicate: only returns true or false
+        Function: accept one parameter and return a value
+        BiFunction/BiConsumer/BiPredicate: accept two parameters and then same concept
+        Unary: accepts one parameter and returns that parameter type (implements the Function interface)
+         */
+
         Employee mo = new Employee("Mo Sagnia", 66);
         Employee john = new Employee("John Doe", 26);
         Employee jack = new Employee("Jack Ripper", 10);
